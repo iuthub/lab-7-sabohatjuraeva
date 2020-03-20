@@ -81,3 +81,17 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
+
+.article-footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.article-meta {
+  font-style: italic;
+  font-size: smaller;
+}
+
