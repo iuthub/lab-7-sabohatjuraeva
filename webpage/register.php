@@ -17,7 +17,7 @@ include('connection.php');
 		<h2>User Details Form</h2>
 		<h4>Please, fill below fields correctly</h4>
 		<form action="register.php" method="post">
-				<ul class="form">
+  				<ul class="form">
 					<li>
 						<label for="username">Username</label>
 						<input type="text" name="username" id="username" required/>
